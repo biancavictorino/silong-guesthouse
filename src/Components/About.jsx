@@ -4,7 +4,7 @@ import AboutImage from '../assets/about-image.png'
 
 const About = () => {
   return (
-    <section className='bg-tertiary-color px-8 py-12 flex flex-col justify-center items-center gap-8 md:flex-row-reverse lg:px-48 lg:gap-3 lg:py-24'>
+    <section className='bg-tertiary-color px-8 py-12 flex flex-col justify-center items-center gap-8 md:flex-row-reverse lg:px-48 lg:gap-3 lg:py-24 lg:h-screen'>
         <div className='flex flex-col gap-6'>
             <div className='flex flex-col gap-3'>
                 <h1 className='text-primary-color font-bold text-3xl md:text-4xl lg:text-4xl'>Mabuhay!</h1>
@@ -25,9 +25,6 @@ const About = () => {
             <img className='w-screen h-72 lg:h-96 lg:p-5' src={AboutImage} alt="" />
         </div>
     </section>
-    // <div >
-        
-    // </div>
   )
 }
 
