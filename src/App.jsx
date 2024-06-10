@@ -3,6 +3,7 @@ import Hero from './Components/Hero'
 import About from './Components/About'
 import Rooms from './Components/Rooms'
 import Events from './Components/Events'
+import Cuisine from './Components/Cuisine'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Rooms />
       <Events />
+      <Cuisine />
     </div>
     </>
   )
