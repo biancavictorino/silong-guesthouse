@@ -11,7 +11,7 @@ const Rooms = () => {
                 titleText={'Check Out Our Rooms'}
             />
         </div>
-        <div className='flex flex-col gap-20 lg:px-28'>
+        <div className='flex flex-col gap-20 lg:px-28 lg:py-6'>
             {
                 Room.map(silong => (
                     <div className='flex flex-col gap-2 lg:flex-row' key={silong.id}>
