@@ -11,7 +11,7 @@ const Navbar = () => {
     }
 
   return (
-    <div className='header py-6 flex flex-row justify-between items-center md:px-20'>
+    <div className='header px-8 py-6 flex flex-row justify-between items-center md:px-20'>
         <div className='logo'>
             <img src={PrimaryLogo} alt="Silong" className="w-12 h-12" />
         </div>
