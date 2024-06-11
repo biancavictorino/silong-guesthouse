@@ -1,5 +1,5 @@
 import React from 'react'
-import PrimaryButton from './PrimaryButton'
+import SecondaryButton from './SecondaryButton'
 import HeroImage from '../assets/hero-image.png'
 import {Stats} from '../Data/Statistics'
 
@@ -10,9 +10,8 @@ const Hero = () => {
             <h1 className='text-primary-color font-bold py-5 text-3xl text-center lg:text-5xl lg:text-start'>Discover your home away from home at Silong.</h1>
             <h2 className='text-text-color text-md text-center lg:text-start'>After a thrilling day on the water,  relax in our comfortable accommodations and enjoy the tranquility of Palawan.</h2>
             <div className='py-6'>
-                <PrimaryButton
+                <SecondaryButton
                     btnText={'Take a Tour'}
-                    styles={'bg-primary-color text-secondary-color'}
                 />
             </div>
             <div className='flex flex-row justify-between py-8'>
