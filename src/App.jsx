@@ -4,6 +4,7 @@ import About from './Components/About'
 import Rooms from './Components/Rooms'
 import Events from './Components/Events'
 import Cuisine from './Components/Cuisine'
+import Contact from './Components/Contact'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Rooms />
       <Events />
       <Cuisine />
+      <Contact />
     </div>
     </>
   )
