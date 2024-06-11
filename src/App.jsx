@@ -5,6 +5,7 @@ import Rooms from './Components/Rooms'
 import Events from './Components/Events'
 import Cuisine from './Components/Cuisine'
 import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Events />
       <Cuisine />
       <Contact />
+      <Footer />
     </div>
     </>
   )
