@@ -41,7 +41,7 @@ const Contact = () => {
                     <div className='py-3'>
                         <PrimaryButton 
                             btnText={'Book Now'} 
-                            styles={'border-secondary-color text-secondary-color'} 
+                            styles={'border-secondary-color text-secondary-color font-semibold hover:scale-95 hover:bg-secondary-color hover:text-primary-color transition ease-in-out'} 
                         />
                     </div>
                 </form>

@@ -5,4 +5,5 @@
 body {
   background-color: #FFFF;
   font-family: 'Outfit';
+  scroll-behavior: smooth;
 }

@@ -7,7 +7,7 @@ import Move from '../assets/move.png'
 
 const Events = () => {
   return (
-    <div className='h-auto relative lg:h-screen lg:flex flex-row lg:px-40'>
+    <div id='events' className='h-auto relative lg:h-screen lg:flex flex-row lg:px-40'>
         <div className='px-8 py-12 bg-primary-color w-full lg:w-1/2'>
             <div className='flex flex-col items-center pb-12'>
                 <img src={EventsIcon} alt="" className=''/>

@@ -5,7 +5,7 @@ import PrimaryButton from './PrimaryButton'
 
 const Rooms = () => {
   return (
-    <div className='px-8 py-8 h-auto flex flex-col'>
+    <div id='rooms' className='px-8 py-8 h-auto flex flex-col'>
         <div className='py-8 lg:py-12'>
             <SectionTitle 
                 titleText={'Check Out Our Rooms'}

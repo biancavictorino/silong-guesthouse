@@ -4,7 +4,7 @@ import { Food } from '../Data/Cuisine'
 
 const Cuisine = () => {
   return (
-    <div className='px-8 py-12 lg:px-44'>
+    <div id='cuisine' className='px-8 py-12 lg:px-44'>
         <div className='py-8 items-center flex flex-col gap-4'>
             <SectionTitle titleText={'Our Cuisine'}/>
             <p className='text-center text-text-color leading-8 lg:w-3/4'>Silong proudly showcase the rich tapestry of Filipino cuisine, offering a vibrant fusion of flavors, fresh local ingredients, and age-old traditions passed down through generations.</p>

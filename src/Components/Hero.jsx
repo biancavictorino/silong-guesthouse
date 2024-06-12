@@ -5,9 +5,9 @@ import {Stats} from '../Data/Statistics'
 
 const Hero = () => {
   return (
-    <div id='home' className='px-8 flex flex-col-reverse lg:flex-row lg:px-28 lg:h-screen lg:items-center'>
-        <div className='flex flex-col items-center md:w-3/5 lg:items-start'>
-            <h1 className='text-primary-color font-bold py-5 text-3xl text-center lg:text-5xl lg:text-start'>Discover your home away from home at Silong.</h1>
+    <div id='home' className='px-8 flex flex-col-reverse items-center justify-center h-screen pt-22 lg:flex-row lg:px-28 lg:h-screen lg:items-center'>
+        <div className='flex flex-col items-center justify-center md:w-3/5 lg:items-start lg:pt-16'>
+            <h1 className='text-primary-color font-bold py-5 text-3xl text-center lg:text-4xl lg:text-start'>Discover your home away from home at Silong.</h1>
             <h2 className='text-text-color text-md text-center lg:text-start'>After a thrilling day on the water,  relax in our comfortable accommodations and enjoy the tranquility of Palawan.</h2>
             <div className='py-6'>
                 <SecondaryButton
@@ -27,8 +27,8 @@ const Hero = () => {
 
             </div>
         </div>
-        <div className='flex justify-center items-center pr-6 pb-6 lg:w-1/2 lg:h-1/2 lg:ml-8'>
-            <img src={HeroImage} alt="" />
+        <div className='flex justify-center w-full items-center lg:w-1/2 lg:h-1/2 lg:ml-8'>
+            <img className="h-52 lg:h-80" src={HeroImage} alt="" />
         </div>
 
     </div>
